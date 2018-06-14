@@ -1,0 +1,43 @@
+
+body{ background-image: url("../../Disney_Castle.jpg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+button{
+  background-color: black;
+  text-align: center;
+  color: aqua;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+}
+
+div{
+  width: 20px;
+  float: left;
+  font-size: 30px;
+  margin-left: 10px;
+  color: red;
+}
+
+input{
+  border: none;
+  border-bottom: 3px solid black;
+  width: 156px;
+  
+}
+
+h3{
+  font-size: 30px;
+  
+}
+h4{
+  font-size: 25px;
+  color: maroon;
+}
+
+p{
+  font-size: 20px;
+  color: magenta;
+}

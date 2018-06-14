@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="game.js"></script>
-</head>
-<body>
-    
-</body>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Disney Word Guess</title>
+        <script src="assets/javascript/game.js"></script>
+          <link rel="stylesheet" href="assets/css/style.css">
+
+        
+      </head>
+      
+      <body>
+        <h1>Disney Character Guessing Game</h1>
+        <br>
+        <br>
+        <button onclick="start_game()">Start/Reset</button>
+        <br>
+        <br>
+        <input type="text" id="guess" onkeydown="guessing()" maxlength="1"></input>
+        <br>
+        <br>
+        <button onclick="guessing()">↑ Guess Letter ↑</button>
+        <br>
+        <br>
+        <div id="0"></div>
+        <div id="1"></div>
+        <div id="2"></div>
+        <div id="3"></div>
+        <div id="4"></div>
+        <div id="5"></div>
+        <div id="6"></div>
+        <div id="7"></div>
+        <div id="8"></div>
+        <div id="9"></div>
+        <div id="10"></div>
+        <div id="11"></div>
+        <div id="12"></div>
+        <div id="13"></div>
+        <div id="14"></div>
+        
+        <br>
+        <h4>Guessed letters</h4>
+        <p id="guessedLetters"></p>
+        <h4>Guesses Remaining</h4>
+        <p id="guessesLeft"></p>
+      
+        <h3 id="end"></h3>
+      </body>
 </html>
