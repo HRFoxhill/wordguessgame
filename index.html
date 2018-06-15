@@ -4,7 +4,12 @@
         <meta charset="UTF-8">
         <title>Disney Word Guess</title>
         <script src="assets/javascript/game.js"></script>
-          <link rel="stylesheet" href="assets/css/style.css">
+        <script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
 
         
       </head>
@@ -45,5 +50,105 @@
         <p id="guessesLeft"></p>
       
         <h3 id="end"></h3>
+      </body>
+
+      <!-- <body>
+          <div class="wrapper">
+              <div class="topnav">
+                    <a class="tabs" href="index.html">About</a>
+                    <a class="tabs" href="portfolio.html">Portfolio</a>
+                    <a class="tabs" href="contact.html">Contact</a>
+                    <a class= "name" href="https://www.heatherrfoxhill.com">Heather Foxhill</a>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <h1>Disney Character Guessing Game</h1>
+                        <div class="col-lg-6">
+                            <button onclick="start_game()">Start/Reset</button>
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" id="guess" onkeydown="guessing()" maxlength="1"></input>    
+                        </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <button onclick="guessing()">↑ Guess Letter ↑</button>   
+                    </div>
+                    <div class="col-md-6">
+                            <section id="0"></section>
+                            <section id="1"></section>
+                            <section id="2"></section>
+                            <section id="3"></section>
+                            <section id="4"></section>
+                            <section id="5"></section>
+                            <section id="6"></section>
+                            <section id="7"></section>
+                            <section id="8"></section>
+                            <section id="9"></section>
+                            <section id="10"></section>
+                            <section id="11"></section>
+                            <section id="12"></section>
+                            <section id="13"></section>
+                            <section id="14"></section>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class= col-lg-4>
+                        <h2>Guessed letters</h2>
+                        <p id="guessedLetters"></p>
+                    </div>
+                    <div class= col-lg-4>
+                        <button onclick="Hint()">Hint</button>
+                    </div>
+                    <div class= col-lg-4>
+                        <h3>Guesses Remaining</h3>
+                        <p id="guessesLeft"></p>   
+                    </div>
+                </div>
+       </div>
+        <!-- try to sort out how to show which letters have been clicked
+        and link the clicks to the guesses (add button value?)-->
+       <div class="container" id="ABC">
+            <div class="btn-toolbar">
+              <div class="btn-group btn-group-sm">
+                <button class="btn btn-choice">A</button>
+                <button class="btn btn-choice">B</button>
+                <button class="btn btn-choice">C</button>
+                <button class="btn btn-choice">D</button>
+                <button class="btn btn-choice">E</button>
+                <button class="btn btn-choice">F</button>
+                <button class="btn btn-choice">G</button>
+                <button class="btn btn-choice">H</button>
+                <button class="btn btn-choice">I</button>
+                <button class="btn btn-choice">J</button>
+                <button class="btn btn-choice">K</button>
+                <button class="btn btn-choice">L</button>
+                <button class="btn btn-choice">M</button>
+                <button class="btn btn-choice">N</button>
+                <button class="btn btn-choice">O</button>
+                <button class="btn btn-choice">P</button>
+                <button class="btn btn-choice">Q</button>
+                <button class="btn btn-choice">R</button>
+                <button class="btn btn-choice">S</button>
+                <button class="btn btn-choice">T</button>
+                <button class="btn btn-choice">U</button>
+                <button class="btn btn-choice">V</button>
+                <button class="btn btn-choice">W</button>
+                <button class="btn btn-choice">X</button>
+                <button class="btn btn-choice">Y</button>
+                <button class="btn btn-choice">Z</button>
+              </div>
+            </div>
+          </div>
+      
+        <h4 id="end"></h4>
+          </div> -->
+<!-- Jquery-slim (no ajax) then popper then Bootstrap below -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
       </body>
 </html>

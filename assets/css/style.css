@@ -3,6 +3,67 @@ body{ background-image: url("../../Disney_Castle.jpg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
+/* 
+/* Style the top navigation bar */
+
+/* .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: static;
+    
+} */
+
+/* Style the topnav links */
+/* .topnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+.tabs {
+    float: right;
+}
+
+.name {
+    float: left;
+    margin-left: 100px;
+    background-color: teal;
+} */
+
+/* Change color on hover */
+/* .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the content */
+.container {
+    background-color: none;
+    padding: 15px;
+    width: 1024px;
+    height: 600px; 
+    margin: 75px 30px 75px 30px;
+    white-space: normal;
+    text-overflow: none;
+}
+
+
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+    max-width: 980px;
+    min-width: 640px;
+  }
+  #column-main {
+    margin-left: 200px;
+  }
+  #column-sidebar {
+    width: 200px;
+    float: left;
+  }
 
 button{
   background-color: black;
@@ -17,27 +78,42 @@ div{
   width: 20px;
   float: left;
   font-size: 30px;
+  font-weight: bold;
   margin-left: 10px;
   color: red;
-}
+}  */
 
 input{
   border: none;
-  border-bottom: 3px solid black;
+  border-bottom: 5px solid black;
   width: 156px;
   
 }
-
-h3{
+h1{
+    text-underline-position: auto;
+    border-bottom-color: #ddd, 10px;
+}
+h2{
   font-size: 30px;
   
 }
-h4{
+h3{
   font-size: 25px;
   color: maroon;
 }
 
+h4{
+    font-size: 25px;
+    color: maroon;
+}
+
+button{
+    color: white;
+}
+
 p{
   font-size: 20px;
-  color: magenta;
+  color: navy;
+  font-weight: 600;
+  float: left;
 }

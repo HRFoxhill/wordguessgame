@@ -29,7 +29,6 @@ function start_game() {
 
 
 
-
 function guessing() {
   guess = document.getElementById("guess").value;
   guess = guess.toLowerCase();
@@ -38,7 +37,7 @@ function guessing() {
       guesses.push(guess);
       document.getElementById("guessedLetters").innerHTML = guesses;
       console.log(guesses);
-      //puts the guessed characters into the Guessed Letters paragraph
+      // guessed letters get added into the Guessed Letters <p>
     }
   }
   
@@ -60,9 +59,9 @@ function work() {
   }
   if (count === 0){
     
-    document.getElementById("end").innerHTML = "YOU LOSE. The correct word was "+ word;
+    document.getElementById("end").innerHTML = "YOU LOSE. The answer was: "+ word;
     start_game()
-    //if the wrong guess count gets to 0 then the game resets and you get the message you lose
+    //if the count gets to 0 then the game resets and you get the message you lose
   }
   
   won();
@@ -82,8 +81,10 @@ function won() {
     }
   }
   if (z === word.length) {
-    document.getElementById("end").innerHTML = "YOU WON!";
+    document.getElementById("end").innerHTML = "<p>YOU WON!<p>";
     start_game()
   }
 }
 //Shows You Won if the all divs being used have a letter
+
+
